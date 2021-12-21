@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
 
-    fetch('anounsment.php?page=4')
+    fetch('anounsment.php?page=0')
         .then(resp => resp.text())
         .then(res => {
             grd.insertAdjacentHTML('beforeend', res)
